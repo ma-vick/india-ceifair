@@ -1,0 +1,37 @@
+.main-container {
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+    max-width: 1000px;
+    padding: 60px 175px;
+}
+
+h1 {
+    margin-bottom: 32px;
+    font-size: 1.7rem;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+ul {
+    padding: 0 45px;
+    margin: 35px 0;
+}
+
+li {
+    margin: 18px 0;
+}
+
+a {
+    color: #ce812a;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #1B3688;
+}

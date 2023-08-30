@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700;800;900&display=swap");
+
+.header {
+  background-color: #ef9632;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.menu-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.page-name {
+  font-size: 0.9rem;
+  color: white;
+  font-family: "Inknut Antiqua", serif;
+  padding: 0 16px;
+  transition: 0.3s ease;
+  background-color: #ce7b0e;
+  border-radius: 8px;
+}
+
+.menu {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
