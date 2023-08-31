@@ -8,10 +8,16 @@
 }
 
 body {
-  background-color: #D6DFFF;
+  background-color: #bccaff;
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+@media (max-width: 1200px){
+    .container {
+        max-width: 87%;
+    }
 }
