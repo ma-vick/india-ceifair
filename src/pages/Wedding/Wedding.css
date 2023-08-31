@@ -1,0 +1,14 @@
+.claim {
+  color: #535353;
+  text-align: center;
+  padding: 50px 10px 20px;
+  margin: 0 auto;
+  background-color: white;
+  max-width: 1000px;
+}
+
+.claim p {
+  margin: 0;
+  line-height: 1rem;
+  font-size: 0.8rem;
+}

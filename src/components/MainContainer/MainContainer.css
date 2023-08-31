@@ -22,9 +22,16 @@ p {
   line-height: 1.7rem;
 }
 
-ul {
+ul,
+ol {
   padding: 0 0 0 36px;
   margin: 35px 0;
+}
+
+ul img,
+ol img {
+  width: 85%;
+  margin: 12px 12px 22px;
 }
 
 li {
@@ -52,17 +59,17 @@ a:hover {
 }
 
 @media (max-width: 780px) {
-    h1 {
-        font-size: 1.4rem;
-    }
+  h1 {
+    font-size: 1.4rem;
+  }
 
-    h2 {
-        font-size: 1.2rem;
-    }
+  h2 {
+    font-size: 1.2rem;
+  }
 
-    li {
-        font-size: 1rem;
-    }
+  li {
+    font-size: 1rem;
+  }
 
   p {
     font-size: 0.8rem;
