@@ -1,49 +1,70 @@
 .main-container {
-    margin: 0 auto;
-    min-height: 100vh;
-    background-color: white;
-    max-width: 1000px;
-    padding: 120px 10% 5%;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: white;
+  max-width: 1000px;
+  padding: 120px 8% 12%;
 }
 
 h1 {
-    margin: 20px 0 30px;
-    font-size: 1.8rem;
-    color: #1B3688;
+  margin: 20px 0 30px;
+  font-size: 1.8rem;
+  color: #1b3688;
 }
 
 h2 {
-    margin: 18px 0;
+  margin: 50px 0 0;
 }
 
 p {
-    margin-bottom: 24px;
-    font-size: 1.1rem;
-    line-height: 1.7rem;
+  margin-bottom: 24px;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 
 ul {
-    padding: 0 45px;
-    margin: 35px 0;
+  padding: 0 0 0 36px;
+  margin: 35px 0;
 }
 
 li {
-    margin: 18px 0;
+  margin: 18px 0;
+  color: #1b3688;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 a {
-    color: #ce812a;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s ease;
+  color: #ce812a;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
 }
 
 a:hover {
-    color: #1B3688;
+  color: #1b3688;
 }
 
-@media (max-width: 1200px){
-     p {
+@media (max-width: 1200px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 780px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    li {
         font-size: 1rem;
     }
+
+  p {
+    font-size: 0.8rem;
+  }
 }
