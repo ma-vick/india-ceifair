@@ -4,13 +4,14 @@
   background-color: #ef9632;
   width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: fixed;
 }
 
 .header div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 0;
 }
 
 .menu-info {
@@ -19,18 +20,23 @@
   gap: 30px;
 }
 
-.page-name {
-  font-size: 0.9rem;
-  color: white;
-  font-family: "Inknut Antiqua", serif;
-  padding: 0 16px;
-  transition: 0.3s ease;
-  background-color: #ce7b0e;
-  border-radius: 8px;
-}
-
 .menu {
   cursor: pointer;
   border: none;
   background: none;
+  font-size: 2rem;
+}
+
+.logo {
+  width: 50px;
+}
+
+@media (max-width: 1200px){
+    .menu {
+        font-size: 1.7rem;
+    }
+
+    .logo {
+      width: 40px;
+    }
 }

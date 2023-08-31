@@ -7,10 +7,10 @@ function Header() {
   return (
     <header className="header">
       <div className="container">
-        <Link to='/'><img src={Logo} alt="Logo" /></Link>
+        <Link to='/'><img src={Logo} alt="Logo" className="logo" /></Link>
         <span className="menu-info">
           <button className="menu">
-            <LuMenu color="white" size={40} />
+            <LuMenu color="white" />
           </button>
         </span>
       </div>

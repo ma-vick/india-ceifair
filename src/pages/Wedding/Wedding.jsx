@@ -1,11 +1,14 @@
 import MainContainer from '../../components/MainContainer/MainContainer';
-import './Wedding.css';
 
 function Wedding() {
-    const hi = 'wedding';
+    const content = (
+        <section>
+            <h1>Indian/Hindu Wedding</h1>
+        </section>
+    );
 
     return (
-        <MainContainer childrn={hi} />
+        <MainContainer childrn={content} />
     );
 }
 

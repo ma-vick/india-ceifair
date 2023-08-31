@@ -1,19 +1,25 @@
 .main-container {
     margin: 0 auto;
-    height: 100vh;
+    min-height: 100vh;
     background-color: white;
     max-width: 1000px;
-    padding: 60px 175px;
+    padding: 120px 10% 5%;
 }
 
 h1 {
-    margin-bottom: 32px;
-    font-size: 1.7rem;
+    margin: 20px 0 30px;
+    font-size: 1.8rem;
+    color: #1B3688;
+}
+
+h2 {
+    margin: 18px 0;
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     font-size: 1.1rem;
+    line-height: 1.7rem;
 }
 
 ul {
@@ -34,4 +40,10 @@ a {
 
 a:hover {
     color: #1B3688;
+}
+
+@media (max-width: 1200px){
+     p {
+        font-size: 1rem;
+    }
 }
