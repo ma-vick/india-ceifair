@@ -17,6 +17,9 @@ export default function SideBar({ isVisible }) {
             <Link to="/india" onClick={() => isVisible && setIsVisible(false)}>India</Link>
           </li>
           <li>
+            <Link to="taj-mahal" onClick={() => isVisible && setIsVisible(false)}>Taj Mahal</Link>
+          </li>
+          <li>
             <Link to="wedding" onClick={() => isVisible && setIsVisible(false)}>Indian/Hindu Wedding</Link>
           </li>
           <li>
@@ -27,9 +30,6 @@ export default function SideBar({ isVisible }) {
           </li>
           <li>
             <Link to="ai" onClick={() => isVisible && setIsVisible(false)}>Ai in India</Link>
-          </li>
-          <li>
-            <Link to="taj-mahal" onClick={() => isVisible && setIsVisible(false)}>Taj Mahal</Link>
           </li>
         </ul>
       </div>
