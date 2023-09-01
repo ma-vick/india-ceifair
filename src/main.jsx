@@ -11,6 +11,7 @@ import India from "./pages/India/India";
 import Foods from "./pages/Foods/Foods";
 import AiIndia from "./pages/AiIndia/AiIndia";
 import TajMahal from "./pages/TajMahal/TajMahal";
+import Festivals from "./pages/Festivals/Festivals";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: 'foods',
         element: <Foods />,
+      },
+      {
+        path: 'festivals',
+        element: <Festivals />,
       },
       {
         path: 'ai',

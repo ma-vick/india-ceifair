@@ -35,6 +35,9 @@ function Home() {
           <Link to="foods">Typical foods</Link>
         </li>
         <li>
+          <Link to="festivals">Indian Festivals</Link>
+        </li>
+        <li>
           <Link to="ai">AI in India</Link>
         </li>
       </ul>
