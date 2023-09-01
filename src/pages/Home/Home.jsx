@@ -26,6 +26,9 @@ function Home() {
           <Link to="india">India</Link>
         </li>
         <li>
+          <Link to="taj-mahal">Taj Mahal</Link>
+        </li>
+        <li>
           <Link to="wedding">Indian/Hindu wedding</Link>
         </li>
         <li>

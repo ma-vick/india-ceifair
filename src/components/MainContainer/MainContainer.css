@@ -28,6 +28,16 @@ ol {
   margin: 35px 0;
 }
 
+.container-img {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container-img img {
+  width: 100%;
+  margin: 12px 0 24px;
+}
+
 ul img,
 ol img {
   width: 85%;
