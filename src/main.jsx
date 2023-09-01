@@ -10,6 +10,7 @@ import CeiFair from "./pages/CeiFair/CeiFair";
 import India from "./pages/India/India";
 import Foods from "./pages/Foods/Foods";
 import AiIndia from "./pages/AiIndia/AiIndia";
+import TajMahal from "./pages/TajMahal/TajMahal";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: 'india',
         element: <India />,
+      },
+      {
+        path: 'taj-mahal',
+        element: <TajMahal />,
       },
       {
         path: 'wedding',
