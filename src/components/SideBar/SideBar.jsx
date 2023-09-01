@@ -23,6 +23,9 @@ export default function SideBar({ isVisible }) {
             <Link to="foods" onClick={() => isVisible && setIsVisible(false)}>Typical Foods</Link>
           </li>
           <li>
+            <Link to="festivals" onClick={() => isVisible && setIsVisible(false)}>Festivals</Link>
+          </li>
+          <li>
             <Link to="ai" onClick={() => isVisible && setIsVisible(false)}>Ai in India</Link>
           </li>
           <li>
