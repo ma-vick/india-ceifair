@@ -14,7 +14,6 @@ import TajMahal from "./pages/TajMahal/TajMahal";
 
 const router = createBrowserRouter([
   {
-    path: '/',
     element: <App />,
     children: [
       {

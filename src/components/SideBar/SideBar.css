@@ -1,28 +1,33 @@
 .nav-sidebar {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  right: 0;
+  background-color: #ef9632;
+  min-height: 100vh;
+  margin-top: 7vh;
+  padding: 0 50px 40px 20px;
+  max-width: 60vw;
+}
+
+.active {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: absolute;
-    right: 0;
-    background-color: #ef9632;
-    min-height: 100vh;
-    padding: 80px 50px 40px 30px;
-    max-width: 60vw;
 }
 
 .nav-sidebar ul li a {
-    color: #1b3688;
+  color: #1b3688;
 }
 
 .nav-sidebar ul li a:hover {
-    color: white;
+  color: white;
 }
 
 .credits {
-    font-style: italic;
-    color: white;
+  font-style: italic;
+  color: white;
 }
 
 .credits a {
-    color: #1b3688;
+  color: #1b3688;
 }
