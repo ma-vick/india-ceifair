@@ -14,7 +14,7 @@ export default function SideBar({ isVisible }) {
             <Link to="cei-fair" onClick={() => isVisible && setIsVisible(false)}>CEI Fair</Link>
           </li>
           <li>
-            <Link to="india" onClick={() => isVisible && setIsVisible(false)}>India</Link>
+            <Link to="/india" onClick={() => isVisible && setIsVisible(false)}>India</Link>
           </li>
           <li>
             <Link to="wedding" onClick={() => isVisible && setIsVisible(false)}>Indian/Hindu Wedding</Link>
