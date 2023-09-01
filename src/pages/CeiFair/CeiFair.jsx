@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
 import MainContainer from "../../components/MainContainer/MainContainer";
+import cei from '../../assets/imgs/cei.jpg';
 
 function CeiFair() {
   const content = (
     <section>
       <h1>CEI Fair</h1>
+      <div className="container-img">
+        <img src={cei} alt="Espirito Santo State Language Center" />
+      </div>
       <h2>What&apos;s CEI?</h2>
       <p>
         State Language Center The Government of Espírito Santo has created the

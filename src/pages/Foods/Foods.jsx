@@ -4,11 +4,15 @@ import chai from '../../assets/imgs/chai.jpg';
 import naan from '../../assets/imgs/naan.webp';
 import hummus from '../../assets/imgs/hummus.jpg';
 import lentilSoup from '../../assets/imgs/lentil-soup.jpg';
+import spices from '../../assets/imgs/spices.jpg';
 
 export default function Foods(){
     const content = (
         <section>
             <h1>Typical Foods</h1>
+            <div className="container-img">
+                <img src={spices} alt="Indian Spices" />
+            </div>
             <p>Coming from one of the most populous countries in the world, Indian food reflects the unique blending of cultures and regional identities found throughout the country. Shaped by its long and tumultuous history, Indian cuisine carries influences of colonizers from the East and the West as well as a range of religious beliefs and practices.</p>
             <p>What makes Indian food so different? With distinct regional delicacies, a unique cultivation of cultural and religious influences and the signature aromatic spices, there is a lot to explore when it comes to Indian food. The iconic breads and curries widely recognized in Indian food outside of the country are enhanced by the bustling street food culture, celebratory dishes and ancient beverages that make up the vibrant world of Indian food.</p>
             <h3>We made some typical dishes for you to try today, we&apos;ll talk a little about them:</h3>

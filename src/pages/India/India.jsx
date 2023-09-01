@@ -1,9 +1,13 @@
 import MainContainer from "../../components/MainContainer/MainContainer";
+import indiaFlag from "../../assets/imgs/india-flag.jpg";
 
 export default function India() {
   const content = (
     <section>
       <h1>India</h1>
+      <div className="container-img">
+        <img src={indiaFlag} alt="India Flag" />
+      </div>
       <p>
         India is an Asian country located in the south of the continent, in a
         region known as the Indian subcontinent. Its capital is the city of New
